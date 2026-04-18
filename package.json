@@ -19,7 +19,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "three": "0.128.0",
+    "three": "^r128",
     "@bhaptics/haptics": "latest"
   }
 }
