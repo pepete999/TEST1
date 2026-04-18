@@ -1,0 +1,14 @@
+module.exports = {
+  buildCommand: "echo 'Static HTML app'",
+  outputDirectory: "./",
+  framework: "html",
+  rewrites: [
+    {
+      source: "/",
+      destination: "/aerokinesis.html"
+    }
+  ],
+  env: {
+    BHAPTICS_KEY: process.env.BHAPTICS_KEY || ""
+  }
+};
