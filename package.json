@@ -8,18 +8,7 @@
     "start": "python -m http.server 3000",
     "build": "echo 'Static HTML app, no build needed'"
   },
-  "keywords": [
-    "webxr",
-    "bhaptics",
-    "haptics",
-    "vr",
-    "quest",
-    "aerokinesis"
-  ],
-  "author": "",
-  "license": "MIT",
   "dependencies": {
-    "three": "^r128",
-    "@bhaptics/haptics": "latest"
+    "three": "0.128.0"
   }
 }
